@@ -1,62 +1,63 @@
-<!doctype html>
-<html lang="ja" xml:lang="ja">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="cache-control" content="no-cache">
-  <meta http-equiv="expires" content="-1">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobage: footer-color" content="none">
-  <link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
-  <script src='../../12008305/js/jquery-2.2.2.min.js'></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="-1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobage: footer-color" content="none">
+	<link rel="stylesheet" href='../../12008305/css/game/pex.css' media="all">
+	<script src='../../12008305/js/jquery-2.2.2.min.js'></script>
 	<script src='../../12008305/js/ilibrary.js'></script>
 	<script src='../../12008305/js/pex-petit-1.2.0.js'></script>
 	<script src='../../12008305/js/pex_common.js'></script>
 	<script src='../../12008305/js/min/petit_manager.min.js'></script>
 	<script src='../../12008305/js/min/refresh_room.min.js'></script>
-  <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
-  <link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
-  <script type="text/javascript">
-    var se_flg = 0,
-      bgm_flg = 0,
-      chrome_app_flg = 0,
-      chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
-      </script>
-      <script type="text/javascript" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fapp_sound.js%3Fv%3D20170809174653"></script><link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116"><div id="prefetch"></div><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1095.js%3Fv%3D20170809174700"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10095.js%3Fv%3D20170809174700"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F1%2F20095.js%3Fv%3D20170809174657"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhand%2F1%2F42028.js%3Fv%3D20170809174701"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1048.js%3Fv%3D20170809174700"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10048.js%3Fv%3D20170809174700"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F1%2F20048.js%3Fv%3D20170809174657"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1068.js%3Fv%3D20170809174700"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10068.js%3Fv%3D20170809174700"></script><script src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F1%2F20068.js%3Fv%3D20170809174657"></script></head><script type="text/javascript" id="useragent-switcher">navigator.__defineGetter__("userAgent", function() {return "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_1 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A402 Safari/604.1"})</script>
-<body><article>
-<section id="pageContainer" class="m-Btm0" style="width: 640px; overflow-x: hidden; margin-top: 83px;">
-<div id="bg_space" class="large-size" style="height: 744px;"><img width="640" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg1.jpg%3Fv%3D20171128144514" style="top: -44px;"></div>
-<div id="jsEyeCatch" style="display: none;">
-<div style="margin-top:120px"><img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Fworking_1.gif%3Fv%3D20170809174620" width="195" height="139"></div>
-<div style="margin-top:-80px"><img src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fpetit_cg%2Fui%2Fsprite%2Floading%2Floading.gif%3Fv%3D20170809174620" width="102" height="102"></div>
-</div>
-<div class="effect-container large-size" style="width: 640px; height: 640px; bottom: 100px;">
-<div id="animation-container"><div id="animation_1" class="animation" style="zoom: 50%;"><canvas width="1280" height="1280"></canvas></div><div id="animation_2" class="animation" style="zoom: 50%;"><canvas width="1280" height="1280"></canvas></div><div id="animation_3" class="animation" style="display: none; zoom: 50%;"><canvas width="1280" height="1280"></canvas></div></div>
-<div id="dialogue" class="animation" style="zoom: 50%; top: 36px; display: block;"><canvas width="1280" height="533"></canvas></div>
-<div class="story" style="text-align:left;">
-<div class="comment-container" style="top: 70px; left: 60px; font-size: 26px; line-height: 32px; letter-spacing: 4px;">
-<span class="">まったく、昼時はどこも騒がしくて</span><br>
-<span class="">困るわね。</span><br>
-<span class="comment">ここなら落ち着けそうだけど…。</span><br>
-</div>
-<a href="#" class="story_btn" style="display:none;"></a>
-</div>
-</div>
-<div id="name-plate" rel="3" class="large-size" style="transform: scale(2);">
-<div class="plate-area" rel="1" style="display: block;">
-<img class="plate" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F131.png%3Fv%3D20171128144514">
-</div>
-<div class="plate-area talking" rel="2" style="display: block;">
-<img class="plate" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F161.png%3Fv%3D20171128144514">
-</div>
-<div class="plate-area" rel="3">
-<img class="plate" src="http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fname_plate%2F96.png%3Fv%3D20171128144514">
-</div>
-</div>
-<a id="next" class="next large-size zoom-size show-arrow" href="#"></a>
-</section>
+	<title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
+	<link rel="stylesheet" type="text/css" href="../../12008305/css/rich/refresh_room.css" media="all">
+	<script type='text/javascript'>
+		var se_flg = 0,
+			bgm_flg = 0,
+			chrome_app_flg = 0,
+			chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+	</script>
+	<script type='text/javascript' src='../../12008305/js/app_sound.js'></script>
+	<link rel="stylesheet" type="text/css" href="../../css/base.css?20171116" />
+</head>
+
+<body>
+	<article>
+		<section id="pageContainer" class="m-Btm0">
+			<div id="bg_space" class="large-size"></div>
+			<div id="jsEyeCatch">
+				<div style="margin-top:120px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/working_1.gif' width="195" height="139"></div>
+				<div style="margin-top:-80px"><img src='../../12008305/image_sp/petit_cg/ui/sprite/loading/loading.gif' width="102" height="102"></div>
+			</div>
+			<div class="effect-container large-size">
+				<div id="animation-container"></div>
+				<div id="dialogue" class="animation"></div>
+				<div class="story" style="text-align:left;">
+					<div class="comment-container">
+						<span></span><br>
+						<span></span><br>
+						<span></span><br>
+					</div>
+					<a href="#" class="story_btn" style="display:none;"></a>
+				</div>
+			</div>
+			<div id="name-plate" rel="3" class="large-size">
+				<div class="plate-area" rel="1">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/85.png'>
+				</div>
+				<div class="plate-area" rel="2">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/89.png'>
+				</div>
+				<div class="plate-area" rel="3">
+					<img class="plate" src='../../12008305/image_sp/ui/refresh_room/name_plate/172.png'>
+				</div>
+			</div>
+			<a id="next" class="next large-size" href="#"></a>
+		</section>
 </article>
 <script type="text/javascript">
 (function(){
