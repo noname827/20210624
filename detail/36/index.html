@@ -108,9 +108,9 @@
                         "breast_size": "2",
                         "short_name": "\u85cd\u5b50",
                         "image_url_list": {
-                            "expression_1023": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1023.js%3Fv%3D20170809174659",
-                            "hair_10023": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10023.js%3Fv%3D20170809174700",
-                            "costume_1_20023": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F1%2F20023.js%3Fv%3D20170809174656"
+                            "expression_1023": "../../12008305/js/petit_cg/expression/1023.js",
+                            "hair_10023": "../../12008305/js/petit_cg/hair/10023.js",
+                            "costume_1_20023": "../../12008305/js/petit_cg/costume/1/20023.js"
                         },
                         "sub_type_list": {
                             "head": null,
@@ -138,9 +138,9 @@
                         "breast_size": "2",
                         "short_name": "\u6b4c\u9234",
                         "image_url_list": {
-                            "expression_1062": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fexpression%2F1062.js%3Fv%3D20170809174700",
-                            "hair_10062": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fhair%2F10062.js%3Fv%3D20170809174700",
-                            "costume_1_20062": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fjs%2Fpetit_cg%2Fcostume%2F1%2F20062.js%3Fv%3D20170809174657"
+                            "expression_1062": "../../12008305/js/petit_cg/expression/1062.js",
+                            "hair_10062": "../../12008305/js/petit_cg/hair/10062.js",
+                            "costume_1_20062": "../../12008305/js/petit_cg/costume/1/20062.js"
                         },
                         "sub_type_list": {
                             "head": null,
@@ -164,7 +164,7 @@
                     }
                 }
             };
-            var default_swf = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Frefresh_room%2Fpetit_refresh_room_character_swf%3Fl_frm%3DRefresh_room_1%26rnd%3D2089834';
+            var default_swf = '../../petit_refresh_room_character_swf';
             for (var i in refreshRoom.data.idol_avatar) {
                 refreshRoom.data.idol_avatar[i].swf = default_swf;
             }
@@ -1180,8 +1180,8 @@
             };
             petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
             refreshRoom.bg_list = {
-                "1": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg1.jpg%3Fv%3D20171128144514",
-                "": "http:\/\/sp.pf-img-a.mbga.jp\/12008305\/?guid=ON&amp;url=http%3A%2F%2F125.6.169.35%2Fidolmaster%2Fimage_sp%2Fui%2Frefresh_room%2Fbg%2Fbg.jpg%3Fv%3D19700101090000"
+                "1": "../../12008305/image_sp/ui/refresh_room/bg/bg1.jpg",
+                "": "../../12008305/image_sp/ui/refresh_room/bg/bg.jpg"
             };
             var image = new Image;
             var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
