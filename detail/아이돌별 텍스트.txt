@@ -1,5 +1,5 @@
 # 츠카사
-            "attribute": "2",
+						"attribute": "2",
 						"body_type": "1",
 						"breast_size": "2",
 						"short_name": "\u3064\u304b\u3055",
