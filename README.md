@@ -7,6 +7,8 @@
  - [다같이 공부하자♪](https://l4disk.github.io/refresh_room/detail/5/)(미)
  - [수험에 얽힌 에세테라](https://l4disk.github.io/refresh_room/detail/25/)(미)
 
+
+|치히로|0||10000||
 ## 아이돌 번호 (큐트)
 |아이돌|이름 패널|얼굴|헤어|코스튬|
 |--|--|--|--|--|
