@@ -1139,68 +1139,73 @@
                 "message_arrow_4": "",
                 "message_arrow_5": ""
             }];
-            petitManager.loaded_action = function() {
-                if (refreshRoom.is_multiply) $('.animation').css({
-                    zoom: "100%"
-                });
-                var margin = window.innerHeight - parseInt($('#bg_space > img').css('height'));
-                if (margin > 0) $('#pageContainer').css({
-                    "margin-top": margin * 0.5
-                });
-                var $effect_container = $('.effect-container');
-                var $dialogue = $('#dialogue');
-                var dialogue_top = parseInt($dialogue.css('top'));
-                var dialogue_ratio = refreshRoom.dialogue.scaleSizeCheck() / 320;
-                $dialogue.css('top', dialogue_top * dialogue_ratio);
-                if (!$effect_container.hasClass('large-size')) {
-                    $dialogue.css('top', dialogue_top * dialogue_ratio);
-                    var $animation = $('.animation:not(#dialogue)');
-                    var anime_top = parseInt($animation.css('top'));
-                    $animation.css('top', anime_top * dialogue_ratio);
-                }
-                $('#jsEyeCatch').hide();
-                refreshRoom.dialogue.startSwf();
-            };
-            petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
-            refreshRoom.bg_list = {
-                "1": "../../12008305/image_sp/ui/refresh_room/bg/22.png",
-                "": "../../12008305/image_sp/ui/refresh_room/bg/bg.jpg"
-            };
-            var image = new Image;
-            var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
-            var size = refreshRoom.dialogue.scaleSizeCheck() * multiply;
-            var ratio = size / 640;
-            image.width = size;
-            var effect_container = $('.effect-container');
-            effect_container.css({
-                width: size,
-                height: size,
-                bottom: parseInt(effect_container.css('bottom')) * ratio
-            });
-            image.onload = function() {
-                $('#bg_space').append(image);
-                var height = $(this).css('height');
-                $(this).parent().css('height', height);
-                $(image).css('top', parseInt($(image).css('top')) * ratio);
-                petitManager.setCharacters(refreshRoom.data.idol_avatar);
-                refreshRoom.dialogue.setMotion();
-            }
-            image.src = refreshRoom.bg_list[refreshRoom.detail[0].bg_image];
-            //console.log(refreshRoom);
-        })();
-        function playText() {
-            if (window.refreshRoom == void 0) return;
-            refreshRoom.dialogue.comment_deferred.resolve();
-        }
-        function motion_callback(index, motion) {
-            var filtered_plate = $('.plate-area[rel=' + index + ']');
-            if (filtered_plate.css('display') == 'none') filtered_plate.show();
-            if (refreshRoom.dialogue.motion_wait) $('#next').trigger('click');
-            refreshRoom.dialogue.motion_wait = false;
-        }
-    </script>
-    <style>
-    </style>
+			petitManager.loaded_action = function() {
+				if (refreshRoom.is_multiply) $('.animation').css({
+					zoom: "50%"
+				});
+				var margin = window.innerHeight - parseInt($('#bg_space > img').css('height'));
+				if (margin > 0) $('#pageContainer').css({
+					"margin-top": margin * 0.5
+				});
+				var $effect_container = $('.effect-container');
+				var $dialogue = $('#dialogue');
+				var dialogue_top = parseInt($dialogue.css('top'));
+				var dialogue_ratio = refreshRoom.dialogue.scaleSizeCheck() / 320;
+				$dialogue.css('top', dialogue_top * dialogue_ratio);
+				if (!$effect_container.hasClass('large-size')) {
+					$dialogue.css('top', dialogue_top * dialogue_ratio);
+					var $animation = $('.animation:not(#dialogue)');
+					var anime_top = parseInt($animation.css('top'));
+					$animation.css('top', anime_top * dialogue_ratio);
+				}
+				$('#jsEyeCatch').hide();
+				refreshRoom.dialogue.startSwf();
+			};
+			petitManager.setWidth(refreshRoom.dialogue.scaleSizeCheck(refreshRoom.is_pc));
+			refreshRoom.bg_list = {
+				"1": "../../12008305/image_sp/ui/refresh_room/bg/bg1.jpg",
+				"": "../../12008305/image_sp/ui/refresh_room/bg/bg.jpg"
+			};
+			var image = new Image;
+			var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
+			var size = refreshRoom.dialogue.scaleSizeCheck() * multiply;
+			var ratio = size / 320;
+			image.width = size;
+			var effect_container = $('.effect-container');
+			effect_container.css({
+				width: size,
+				height: size,
+				bottom: parseInt(effect_container.css('bottom')) * ratio
+			});
+			image.onload = function() {
+				$('#bg_space').append(image);
+				var height = $(this).css('height');
+				$(this).parent().css('height', height);
+				$(image).css('top', parseInt($(image).css('top')) * ratio);
+				$('#name-plate').css({
+					"-webkit-transform": "scale(" + ratio + ")"
+				})
+				petitManager.setCharacters(refreshRoom.data.idol_avatar);
+				refreshRoom.dialogue.setMotion();
+			}
+			image.src = refreshRoom.bg_list[refreshRoom.detail[0].bg_image];
+			//console.log(refreshRoom);
+		})();
+
+		function playText() {
+			if (window.refreshRoom == void 0) return;
+			refreshRoom.dialogue.comment_deferred.resolve();
+		}
+
+		function motion_callback(index, motion) {
+			var filtered_plate = $('.plate-area[rel=' + index + ']');
+			if (filtered_plate.css('display') == 'none') filtered_plate.show();
+			if (refreshRoom.dialogue.motion_wait) $('#next').trigger('click');
+			refreshRoom.dialogue.motion_wait = false;
+		}
+	</script>
+	<style>
+	</style>
 </body>
 
 </html>
