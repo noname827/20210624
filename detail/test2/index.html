@@ -1178,7 +1178,7 @@
             var image = new Image;
             var multiply = refreshRoom.is_pc || window.devicePixelRatio >= 1.5 && !refreshRoom.old_os ? 0.5 : 1;
             var size = refreshRoom.dialogue.scaleSizeCheck() * multiply;
-            var ratio = size / 320;
+            var ratio = size / 640;
             image.width = size;
             var effect_container = $('.effect-container');
             effect_container.css({
