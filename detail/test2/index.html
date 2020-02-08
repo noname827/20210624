@@ -1182,9 +1182,6 @@
                 var height = $(this).css('height');
                 $(this).parent().css('height', height);
                 $(image).css('top', parseInt($(image).css('top')) * ratio);
-                $('#name-plate').css({
-                    "-webkit-transform": "scale(" + ratio + ")"
-                })
                 petitManager.setCharacters(refreshRoom.data.idol_avatar);
                 refreshRoom.dialogue.setMotion();
             }
