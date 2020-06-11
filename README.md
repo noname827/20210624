@@ -10,6 +10,7 @@ https://uhlmkashim.github.io/refresh_room/detail/test2
  - [당신에게 보내는 감사의 클린](https://uhlmkashim.github.io/refresh_room/detail/78/index.html)(미)
  - [당신에게 보내는 감사의 클린](https://uhlmkashim.github.io/refresh_room/detail/78/index_k.html)(번)
  - [어느새 공범으로!?](https://uhlmkashim.github.io/refresh_room/detail/147/index.html)(미)
+ - [어느새 공범으로!?](https://uhlmkashim.github.io/refresh_room/detail/147/index_k.html)(번)
 
 
 |치히로|0||10000||
