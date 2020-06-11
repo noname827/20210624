@@ -1,13 +1,15 @@
 https://uhlmkashim.github.io/refresh_room/detail/test2
 ## 리프레시룸 일람
 
- - [뉴제네레이션즈의 오프타임](https://l4disk.github.io/refresh_room/detail/1/)(미)
- - [프릴드스퀘어 대작전!](https://l4disk.github.io/refresh_room/detail/2/)
- - [걸즈·파워의 걸즈토크](https://l4disk.github.io/refresh_room/detail/3/)(미)
- - [브리앙뜨 느와르의 권유](https://l4disk.github.io/refresh_room/detail/4/)(미)
- - [다같이 공부하자♪](https://l4disk.github.io/refresh_room/detail/5/)(미)
- - [수험에 얽힌 에세테라](https://uhlmkashim.github.io/refresh_room/detail/25/)(미)
- - [어느새 공범으로!?](https://uhlmkashim.github.io/refresh_room/detail/147/)(미)
+ - [뉴제네레이션즈의 오프타임](https://l4disk.github.io/refresh_room/detail/1/index.html)(미)
+ - [프릴드스퀘어 대작전!](https://l4disk.github.io/refresh_room/detail/2/index.html)
+ - [걸즈·파워의 걸즈토크](https://l4disk.github.io/refresh_room/detail/3/index.html)(미)
+ - [브리앙뜨 느와르의 권유](https://l4disk.github.io/refresh_room/detail/4/index.html)(미)
+ - [다같이 공부하자♪](https://l4disk.github.io/refresh_room/detail/5/index.html)(미)
+ - [수험에 얽힌 에세테라](https://uhlmkashim.github.io/refresh_room/detail/25/index.html)(미)
+ - [당신에게 보내는 감사의 클린](https://uhlmkashim.github.io/refresh_room/detail/78/index.html)(미)
+ - [당신에게 보내는 감사의 클린](https://uhlmkashim.github.io/refresh_room/detail/78/index_k.html)(번)
+ - [어느새 공범으로!?](https://uhlmkashim.github.io/refresh_room/detail/147/index.html)(미)
 
 
 |치히로|0||10000||
