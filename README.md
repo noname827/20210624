@@ -1,7 +1,7 @@
 https://uhlmkashim.github.io/refresh_room/detail/test2<br>
 https://uhlmkashim.github.io/refresh_room/detail/test3
 
-expression_얼굴번호.replace_face숫자 = expression_얼굴번호.replace_face12
+expression_얼굴번호.replace_face12 = expression_얼굴번호.replace_face숫자
 
 ## 리프레시룸 일람
 
